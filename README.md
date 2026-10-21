@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RPL Adaptive Trust / Dynamic Threshold / Prevention / Recovery
 
 This project adds a per-neighbor trust engine, a dynamic trust threshold, and
@@ -361,3 +362,7 @@ Mitigation modes: `0` = none (unmitigated), `1` = static legacy blacklist
   this is why `RPL_TRUST_CONF_MAX_NODES` is also 16.
 - `nbr_table_add_lladdr()` `memset`s a reused slot to zero
   (`nbr-table.c`) — why trust state lives outside `struct rpl_nbr`.
+=======
+# Contiki-ng-iot-routing-attack-evaluation
+This is an  routing evaluation project on 6-LOWWPAN networks covering attacks such as blackhole and self forwarding attacks.Detection and prevention mechanisms are implemented
+>>>>>>> origin/main
