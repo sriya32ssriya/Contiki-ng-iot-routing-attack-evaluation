@@ -1,0 +1,6 @@
+Scenario,Packets Sent,Packets Received,PDR (%),Packet Loss,Throughput(Bytes/sec)
+Baseline,406,404,99.51,2,31.08
+SFA 10%,404,401,99.26,3,30.92
+SFA 40%,402,393,97.76,9,30.76
+Black Hole,406,332,81.77,74,31.08
+

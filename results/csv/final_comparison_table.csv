@@ -1,0 +1,5 @@
+Scenario,Packets Sent,Packets Received,Packet Loss,PDR (%),Throughput (Bytes/sec),Attack Drop Events,Trust-Engine DETECTION Events,PREVENTION Reject Actions,Detection Latency Reporter 1,Detection Latency Reporter 2,Topology,Duration (s),Random Seed
+Baseline (attack off),2468,2406,62,97.49,11.48,0,0,0,N/A (no attack to detect),N/A,real_attack 15-mote,1800,1
+Attack - No Mitigation,2469,2262,207,91.62,11.49,152,3,0,51.6s (reporter 10),76.0s (reporter 9),real_attack 15-mote,1800,1
+Attack - Adaptive Trust,2469,2337,132,94.65,11.49,64,2,2,38.9s (reporter 10),65.6s (reporter 8),real_attack 15-mote,1800,1
+Attack - Static Blacklist,2468,2453,15,99.39,11.48,0,0,0,N/A (no detection logic; node 6 blocked from t=0),N/A,real_attack 15-mote,1800,1

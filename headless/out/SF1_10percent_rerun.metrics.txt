@@ -1,0 +1,11 @@
+
+========== METRICS ==========
+Packets Sent      : 2467
+Packets Received  : 2330
+Packet Loss       : 137
+PDR               : 94.45%
+Total Bytes Sent  : 20663
+Throughput        : 11.48 Bytes/sec
+=============================
+
+Results saved to results.csv

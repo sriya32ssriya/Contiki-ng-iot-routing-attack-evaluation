@@ -1,0 +1,9 @@
+Scenario,Packets Sent,Packets Received,PDR (%),Packet Loss,Throughput(Bytes/sec)
+True Baseline (attack off),2468,2406,97.49,62,11.48
+Attack - No Mitigation,2469,2262,91.62,207,11.49
+Attack - Adaptive Trust,2469,2337,94.65,132,11.49
+Attack - Static Blacklist,2468,2453,99.39,15,11.48
+SF1 10pct (app-layer fixed hook),2469,2355,95.38,114,11.49
+SF2 40pct (app-layer fixed hook),2468,2309,93.56,159,11.48
+Blackhole (app-layer fixed hook),2470,2226,90.12,244,11.49
+Baseline_SF0 (smaller topology),892,889,99.66,3,4.15
