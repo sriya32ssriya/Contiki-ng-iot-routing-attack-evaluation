@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # RPL Adaptive Trust / Dynamic Threshold / Prevention / Recovery
 
 This project adds a per-neighbor trust engine, a dynamic trust threshold, and
@@ -365,4 +365,4 @@ Mitigation modes: `0` = none (unmitigated), `1` = static legacy blacklist
 =======
 # Contiki-ng-iot-routing-attack-evaluation
 This is an  routing evaluation project on 6-LOWWPAN networks covering attacks such as blackhole and self forwarding attacks.Detection and prevention mechanisms are implemented
->>>>>>> origin/main
+
